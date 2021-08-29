@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  height: 100vh;
+}
+footer {
+  font-size: 1rem;
+  margin-top: 2rem;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  margin: auto;
+  margin-top: -2rem;
+  padding: 2rem 1rem;
+  width: min(80vw, 600px);
+  font-size: 1.5rem;
+  text-align: center;
+}

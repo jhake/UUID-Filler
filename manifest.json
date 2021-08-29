@@ -1,0 +1,17 @@
+{
+  "name": "UUID Filler",
+  "description": "Easily fill text fields with a randomly generated UUID!",
+  "version": "0.1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["contextMenus", "scripting", "activeTab"],
+  "icons": {
+    "16": "16px.png",
+    "32": "32px.png",
+    "48": "48px.png",
+    "128": "128px.png"
+  },
+  "options_page": "options.html"
+}
